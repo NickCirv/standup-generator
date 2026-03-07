@@ -1,0 +1,32 @@
+{
+  "name": "standup-generator",
+  "version": "1.0.0",
+  "description": "Translate your git log into hilarious (but actually useful) standup updates",
+  "main": "index.js",
+  "bin": {
+    "standup-generator": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "standup",
+    "git",
+    "cli",
+    "developer-tools",
+    "humor",
+    "scrum",
+    "agile",
+    "productivity"
+  ],
+  "author": "NickCirv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/standup-generator.git"
+  },
+  "homepage": "https://github.com/NickCirv/standup-generator#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
