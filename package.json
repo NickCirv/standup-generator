@@ -7,7 +7,8 @@
     "standup-generator": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node --test"
   },
   "keywords": [
     "standup",
@@ -27,6 +28,6 @@
   },
   "homepage": "https://github.com/NickCirv/standup-generator#readme",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=20"
   }
 }
